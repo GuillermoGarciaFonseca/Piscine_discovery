@@ -1,0 +1,21 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+  }
+  
+  nav a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    color: aqua;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    background-color: whitesmoke;
+  }

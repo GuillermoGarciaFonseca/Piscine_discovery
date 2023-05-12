@@ -1,0 +1,84 @@
+body {
+    margin: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: grey;
+}
+
+#lista {
+    background: whitesmoke;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+#lista_boton{
+    background: blue;
+    border: solid 1px aqua;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+#lista_boton:focus {
+    outline: 0;
+}
+
+#lista_boton:hover {
+    background: blue;
+    cursor: pointer;
+}
+
+#lista_division {
+    background: grey;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: blanchedalmond;
+    position: relative;
+}
+
+#lista_division::after {
+    content: 'x';
+    position: absolute;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    top: 20%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+#lista_division :before {
+    content: '';
+    background: red;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+#lista_division :hover {
+    cursor: pointer;
+}
+
+#lista_division :hover:after {
+    opacity: 1.5;
+}
+
+#lista_division :hover:before {
+    opacity: 0.5;
+}

@@ -1,0 +1,29 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif, serif, sans-serif;
+    background-color: green;
+  }
+  
+  form {
+    margin: 25px;
+  }
+  
+  input[type="text"], select {
+    padding: 6px;
+    margin-right: 10px;
+  }
+  
+  input[type="submit"] {
+    padding: 8px 12px;
+    background-color:turquoise;
+    color: black;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: turquoise;
+  }
+  
+  .error {
+    color: orangered;
+  }

@@ -1,0 +1,35 @@
+body, html {
+  height: 100%;
+}
+.bottom-left{
+  position: absolute;
+  bottom: 420px;
+  left: 750px;
+  color: white;
+}
+.parallax {
+  
+  background-image: url('imagen1.jpeg');
+  
+  
+  height: 100%; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2{
+  background-image: url('imagen2.jpeg');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bottom-bottom{
+  position:absolute;
+  bottom: -1500px;
+  left: 750px;
+  color: white;
+}

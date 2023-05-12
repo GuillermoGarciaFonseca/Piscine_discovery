@@ -1,0 +1,13 @@
+
+  table {
+    height: 25%;
+    width: 25%;
+    text-align: center;
+    margin: auto;
+  }
+  .fila1 {
+    background-color: aqua;
+  }
+  .fila2 {
+    background-color: blue;
+  }
